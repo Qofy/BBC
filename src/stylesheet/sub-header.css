@@ -1,0 +1,41 @@
+
+.sub-header {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  
+  
+}
+.head-item{
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  font-family:"BBC Reith Sans", Helvetica, Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+.txt{
+  display: flex;
+
+align-items: center;
+margin: 0 auto;
+display: flex;
+align-items: center;
+padding-left: 14px;
+padding-right: 14px;
+padding-top: 6px;
+padding-bottom: 6px;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+font-family:"BBC Reith Sans", Helvetica, Arial, sans-serif;
+color: rgb(0, 0, 0);
+
+}
+
+

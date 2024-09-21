@@ -1,0 +1,54 @@
+
+.header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+   justify-content: space-between;  
+  align-items: center;
+  /* gap: 38rem; */
+ 
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.logo{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.right-header{
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  margin-right: 2rem;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  font-family:"BBC Reith Sans", Helvetica, Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.left-header{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1.5rem;
+}
+.b{
+  background-color: black;
+  color: white;
+  padding: 1px 9px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.right-header:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
