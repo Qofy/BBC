@@ -1,4 +1,4 @@
-import { Menu, Search, User, ChevronDown, Settings, LogOut } from "lucide-react";
+import { Menu, Search, User, ChevronDown, Settings, LogOut, Bookmark } from "lucide-react";
 import { useState } from 'react';
 import '../stylesheet/header.css';
 
@@ -26,7 +26,7 @@ function Header() {
                 <ChevronDown />
                 {isOpen && (
                     <div className="dropdown">
-                        <a href="#"><User /> Profile</a>
+                        <a href="#"><Bookmark /> Saved Items</a>
                         <a href="#"><Settings /> Settings</a>
                         <a href="#"><LogOut /> Logout</a>
                     </div>
