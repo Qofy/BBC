@@ -10,6 +10,7 @@
   left: 0;
   background-color: white;
   z-index: 1000;
+  margin-bottom: 5rem;
 }
 
 .logo {
@@ -67,7 +68,7 @@
   border-radius: 4px;
   padding: 8px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  z-index: 1001;
+  z-index: 100;
   width: 100%;
 }
 

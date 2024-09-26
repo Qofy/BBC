@@ -5,8 +5,10 @@
   height: 40px;
   align-items: center;
   border-bottom: 1px solid #e5e5e5;
-  
-  
+  position: fixed;
+  top: 60px;
+  left: 0;
+  background-color: white;
 }
 .head-item{
   padding-left: 14px;

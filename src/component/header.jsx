@@ -1,11 +1,11 @@
 import { Menu, Search, User, ChevronDown, Settings, LogOut, Bookmark } from "lucide-react";
 import { useState } from 'react';
 import '../stylesheet/header.css';
-
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
+      
         <div className="header">
             <div className="left-header">
                 <Menu />
@@ -32,6 +32,7 @@ function Header() {
                     </div>
                 )}
             </div>
+
         </div>
     )
 }

@@ -4,21 +4,27 @@
 }
 .left-sidebar {
   width: 20rem;
+  height: 100%;
 }
-.news-1{
+.news-1, .news-2{
   width: 17rem;
-  height: 26rem;
+  height: 23rem;
   padding-left: .5rem;
   padding-right: .5rem;
 }
+.news-1{
+  border-bottom: 1px solid #857d7d94;
+  margin-bottom: .7rem;
+}
 
-.img1, img{
+
+.img1, img, .img2{
   width: 17rem;
   height: 10rem;
   object-fit: cover;
 }
 
-.img1 {
+.img1, .img2 {
   margin-bottom: .4rem;
 }
 a{
@@ -33,9 +39,18 @@ h3{
 .headline{
   margin-bottom: 1.5rem;
   margin-top: 1rem;
+  font-family: "BBC Reith Serif", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
 }
 .day{
   display: flex;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: rgb(84, 86, 88);
 }
 .location{
   margin-left: .6rem;

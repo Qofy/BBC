@@ -8,14 +8,22 @@ import RightSidebar from './component/right-sidebar';
 
 export default function BBC() {
   return (
+    <> 
     <div className="content">
       <Header />
       <SubHeader />
-    <div className="main-body">
+    </div>
+
+    <div className="container">
+    <div className="container-1">
      <LeftSidebar />
      <Body />
      <RightSidebar />
     </div>
+    <div className="container-2">
+      <LeftSidebar />
     </div>
+    </div>
+    </>
   );
 }
