@@ -44,6 +44,7 @@ h3{
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0px;
+  color: rgb(32, 34, 36);
 }
 .day{
   display: flex;
