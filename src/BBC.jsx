@@ -9,7 +9,9 @@ import Body2 from './component/body-2';
 
 export default function BBC() {
   return (
-    <> 
+    <
+  
+    > 
     <div className="content">
       <Header />
       <SubHeader />
