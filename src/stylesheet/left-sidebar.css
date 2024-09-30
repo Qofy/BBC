@@ -6,7 +6,11 @@
   width: 20rem;
   height: 100%;
 }
-.news-1, .news-2{
+.news-item{
+  border-bottom: 1px solid #857d7d94;
+  margin-bottom: 1rem;
+}
+/* .news-1, .news-2{
   width: 17rem;
   height: 23rem;
   padding-left: .5rem;
@@ -15,18 +19,17 @@
 .news-1{
   border-bottom: 1px solid #857d7d94;
   margin-bottom: .7rem;
-}
+} */
 
 
-.img1, img, .img2{
+ img{
   width: 17rem;
   height: 10rem;
   object-fit: cover;
+  margin-bottom: .5rem;
 }
 
-.img1, .img2 {
-  margin-bottom: .4rem;
-}
+
 a{
   color: black;
 }
@@ -52,7 +55,5 @@ h3{
   line-height: 14px;
   font-weight: 400;
   color: rgb(84, 86, 88);
-}
-.location{
-  margin-left: .6rem;
+  margin-bottom: 1rem;
 }
