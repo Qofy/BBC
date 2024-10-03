@@ -1,50 +1,40 @@
-  import '../stylesheet/body-2.css';
-  import bird from '../images/bird.webp';
-  import imgc from '../images/img-c.webp';
+// React import removed as it's not used in this component
+import '../stylesheet/body-2.css';
+import save from '../images/save.webp';
+ import sea from '../images/sea.webp';
+import Body from './body';
 
 function Body2() {
-    return (
-        <div className="body-2">
-            <h3>
-              Only from the BBC
-            </h3>
-            <section>
-                <div className="cont-1">
-                  <img className='imgc' src={imgc} alt="kid" />
-                  
-                    <a href="#">
-                      <h3>
-                    Can families returning after centuries solve S Korea's population crisis?
-                    </h3>
-                    </a>
-                  
-                  <p className="headline-b2">
-                  Ethnic Koreans, whose ancestors migrated to Russia, are returning, but the move can be difficult.
-                  </p>
-                  <p className="day">
-                    9 day ago | <p className="location">World</p>
-                    </p>
-                </div>
+  const news1 = [{
+    id: 1,
+    img: save,
+    title: `The 'mind bombs' that changed the whaling industry`,
+    desc: "IIn the 1970s, a small group of Greenpeace activists had a unique idea for how they could put an end to commercial whaling.",
+    date: '29 days ago | Future',
+  }];
 
-                <div className="cont2">
-                 <img className='imgc' src={bird} alt="bird" />
+  const news2 = [{
+    id: 2,
+    img: sea,
+    title: `Europe's under-the-radar Nordic destination`,
+    desc: `Considered the gateway to the world's largest archipelago and renowned for its food scene, Finland's second city is well worth a detour.`,
+    date: '2 days ago | Travel'
+  }];
 
-                 <a href="#">
-                      <h3>
-                      Meet Pesto: the fat baby penguin and viral superstar
-                    </h3>
-                    </a>
-                  
-                  <p className="headline-b2">
-                  The obscenely fluffy nine-month-old chick weighs more than both of his foster parents combined.
-                  </p>
-                  <p className="day">
-                    5 day ago | <p className="location">World</p>
-                    </p>
-                </div>
-            </section>
+  // const news3 = [{
+  //   id: 3,
+  //   img: imgc,
+  //   title: 'New technology breakthrough in clean energy',
+  //   desc: 'Scientists announce a major advancement in renewable energy technology.',
+  //   date: '5 days ago | Technology'
+  // }];
 
-        </div>
-    )
+  return (
+    <div className="body-2">
+      <Body news={news1} />
+      <Body news={news2} />
+    </div>
+  );
 }
-export default Body2
+
+export default Body2;

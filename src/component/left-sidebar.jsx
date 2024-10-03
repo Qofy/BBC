@@ -13,9 +13,9 @@ import img2 from '../images/img2.webp';
 {
   id: 2,
   img: img2,
-  title: 'Israel air strikes kill 492 people in Lebanon, including 100 children',
-  desc: 'Israel says it hit 1,600 Hezbollah targets and tells civilians to flee areas near the group’s weapons.',
-  date: '29 day ago | Middle East',
+  title: '  India anger over alleged sexual assault on woman inside police station',
+  desc: '  A video of the woman, detailing her alleged abuse by police, has gone viral and led to an outcry in India.',
+  date: '29 day ago | Asia',
 },
 
 ]

@@ -11,14 +11,16 @@
   background-color: white;
 }
 .head-item{
-  padding-left: 14px;
-  padding-right: 14px;
+  /* padding-left: 14px;
+  padding-right: 14px; */
   font-weight: 700;
   font-size: 15px;
   line-height: 14px;
   font-family:"BBC Reith Sans", Helvetica, Arial, sans-serif;
   color: rgb(0, 0, 0);
   cursor: pointer;
+  padding: 10px 10px;
+
 
 }
 .txt{
@@ -38,6 +40,9 @@ line-height: 14px;
 font-family:"BBC Reith Sans", Helvetica, Arial, sans-serif;
 color: rgb(0, 0, 0);
 
+}
+.head-item:hover{
+  background-color: #e5e5e5;
 }
 
 
