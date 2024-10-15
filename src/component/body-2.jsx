@@ -2,7 +2,7 @@
 import '../stylesheet/body-2.css';
 import save from '../images/save.webp';
  import sea from '../images/sea.webp';
-import Body from './body';
+import Body from './middle';
 
 function Body2() {
   const news1 = [{

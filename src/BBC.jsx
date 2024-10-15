@@ -2,10 +2,8 @@
 import './BBC.css';
 import Header from "./component/header";
 import SubHeader from './component/sub-header';
-import Body from './component/body';
-import LeftSidebar from './component/left-sidebar';
-import RightSidebar from './component/right-sidebar';
-import Body2 from './component/body-2';
+import NewsLayout from './component/News';
+ 
 
 export default function BBC() {
   return (
@@ -16,17 +14,7 @@ export default function BBC() {
       </div>
 
       <div className="container">
-        <div className="container-1">
-          <LeftSidebar />
-          <Body />
-          <RightSidebar />
-        </div>
-        <div className="container-2">
-          <Body2 />
-        </div>
-        <div>
-          <Body2 />
-        </div>
+        <NewsLayout/>
       </div>
     </>
   );
