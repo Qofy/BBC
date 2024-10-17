@@ -1,12 +1,25 @@
-// React import removed as it is not used in this component
+
 import '../stylesheet/middle.css';
-import bodyimg from '../images/body-img.webp';
 
-
-export default function Middle() {
+export default function Middle(props) {
+  const {article = [], newImg, newTitle, newDesc, newDate} = props;
+  if (!article || article.length === 0){
+    return null;
+  }
   return (
-    <div className="body">
-     
+    <div className="middle">
+     {article.map((article, index) =>(
+      <div key={index} className='article1'>
+     <img className='middle-img' src={newImg || article.img} alt="img" />
+     <h3>
+      {newTitle || article.title}
+     </h3>
+     <p>
+      {newDesc || article.desc}
+     </p>
+     <span>{newDate || article.date}</span>
+     </div>
+     ))}
 
     </div>
   );

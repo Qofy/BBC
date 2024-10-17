@@ -2,6 +2,7 @@ import Middle from "./middle"
 import LeftSidebar from "./left-sidebar"
 import RightSidebar from "./right-sidebar"
 import article from "./Article"
+import '../stylesheet/news.css';
 const NewsLayout = () =>{
 return(
   <div className="news-layout">

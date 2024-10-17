@@ -1,0 +1,14 @@
+.news-layout {
+    display: flex;
+    padding: 3rem 7rem;
+    gap: 1rem;
+  }
+  .left-sidebar h3:hover, .right-sidebar h3:hover, .middle h3:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+  }
+
+  .article {
+    border-bottom: 1px solid #ccc;
+  }

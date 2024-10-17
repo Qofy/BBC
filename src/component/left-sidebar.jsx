@@ -1,5 +1,4 @@
 import '../stylesheet/left-sidebar.css';
-import article from './Article';
 
 export default function LeftSidebar(props) {
  const { article = [], newImg, newTiltle, newDesc, newDate } = props;
@@ -11,7 +10,7 @@ export default function LeftSidebar(props) {
     <div className="left-sidebar">
       {article.map((article, index) =>(
       <div key={index} className='article'>
-     <img src={newImg || article.img} alt="img" />
+     <img className='left-img' src={newImg || article.img} alt="img" />
      <h3>
       {newTiltle || article.title}
      </h3>

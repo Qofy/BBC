@@ -1,21 +1,16 @@
-// React import removed as it is not used in this component
-import './BBC.css';
-import Header from "./component/header";
+import Header from './component/header';
 import SubHeader from './component/sub-header';
 import NewsLayout from './component/News';
- 
+import './BBc.css';
 
-export default function BBC() {
+function BBC() {
   return (
-    <>
-      <div className="content">
-        <Header />
-        <SubHeader />
-      </div>
-
-      <div className="container">
-        <NewsLayout/>
-      </div>
-    </>
-  );
+    <div className="bbc">
+      <Header />
+      <SubHeader />
+      <NewsLayout />
+    </div>
+  )
 }
+
+export default BBC
