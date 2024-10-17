@@ -1,7 +1,7 @@
 .news-layout {
     display: flex;
-    padding: 3rem 7rem;
     gap: 1rem;
+    margin-bottom: 8rem;
   }
   .left-sidebar h3:hover, .right-sidebar h3:hover, .middle h3:hover{
     transform: scale(1.05);

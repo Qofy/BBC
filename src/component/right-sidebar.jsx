@@ -1,7 +1,5 @@
 import '../stylesheet/right-sidebar.css';
-// import {Play} from 'lucide-react';
-
-
+import { Play } from 'lucide-react';
 
 export default function RightSidebar(props) {
 const { article = [], newTiltle, newDesc, newDate } = props;
@@ -13,12 +11,14 @@ if (!article || article.length === 0){
   {article.map((article, index)=>(
     <div key={index} className='article'>
       <h3>
+      <span>{index === 3 ? <Play /> : article.icon}</span>
         {newTiltle || article.title}
       </h3>
       <p>
         {newDesc || article.desc}
       </p>
-      <span>{newDate || article.date}</span>
+      
+       <span>{newDate || article.date}</span>
     </div>
   ))}
      
