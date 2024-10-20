@@ -5,7 +5,9 @@ import Middle from './component/middle';
 import article from './component/Article';
 import ride from './images/ride.webp';
 import checkup from './images/checkup.webp';
+import { ChevronRight } from 'lucide-react';
 import './BBc.css';
+import Section3 from './component/Secton-3';
 
 function BBC() {
   return (
@@ -33,7 +35,13 @@ function BBC() {
       newDate = "22 hrs ago | Future"
       />
       </div>
+      <h3 className='more-news'>
+      More news
+    <ChevronRight />
+      </h3> 
+      <Section3 />
     </div>
+    
   )
 }
 

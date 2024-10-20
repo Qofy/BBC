@@ -19,3 +19,16 @@
   border-top: 2px solid #1a1919;
   margin-top: .3rem;
 }
+
+.section-2{
+  border-bottom: 2px solid #1a1919;
+  padding-bottom: 1.5rem;
+}
+
+.more-news{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: .3rem  ;
+cursor: pointer;
+}
