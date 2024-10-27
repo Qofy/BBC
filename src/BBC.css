@@ -8,7 +8,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .bbc{
-  padding: 3rem 7rem;
+  padding: 4rem 15rem;
 
 }
 .section-2:not(h3) {
@@ -21,8 +21,8 @@
 }
 
 .section-2{
-  border-bottom: 2px solid #1a1919;
-  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
 }
 
 .more-news{
@@ -31,4 +31,9 @@ flex-direction: row;
 align-items: center;
 gap: .3rem  ;
 cursor: pointer;
+}
+
+hr{
+  border: 1px solid #1a1919;
+  margin-top: 2.5rem;
 }

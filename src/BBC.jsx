@@ -21,7 +21,7 @@ function BBC() {
         </h3>
       </h3>
       <div className='section-2' >
-        <Middle
+        <Middle 
           article={article.articleWithBigPic}
           newImg={ride}
           newTiltle="Jodhpur: India's vanishing 'blue' city"
@@ -35,6 +35,7 @@ function BBC() {
       newDate = "22 hrs ago | Future"
       />
       </div>
+      <hr />
       <h3 className='more-news'>
       More news
     <ChevronRight />

@@ -7,7 +7,7 @@ export default function LeftSidebar(props) {
  }
  
   return (
-    <div className="left-sidebar">
+    <div className="left-sidebar  left-sidebar-1">
       {article.map((article, index) =>(
       <div key={index} className='article'>
      <img className='left-img' src={newImg || article.img} alt="img" />
